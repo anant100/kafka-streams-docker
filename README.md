@@ -1,13 +1,10 @@
 # kafka-streams-docker
 
-# Design Engineering Skill Assesment
+# Design Engineering Skill Improvement
 
-Print the average stock price every 30 seconds using Kafka Streams
+Generate dummy JSON data for 3 tickers with price of ±10% with the mean price. Produce the stream of JSON msg with at least 1 to 3 tickers in Kafka Producer. Consume the JSON stream and print the average stock price every 30 seconds using Kafka Streams...
 
 ## Prerequisite
-To Run pipeline using Docker-image
-- Docker
-- Docker-compose
 
 To Run pipeline on any Scala supported IDE in local system
 
@@ -15,6 +12,10 @@ To Run pipeline on any Scala supported IDE in local system
 - IntelliJ/Scala IDE
 - Zookeeper
 - Kafka-0.10.0.0 - https://archive.apache.org/dist/kafka/0.10.0.0/kafka_2.11-0.10.0.0.tgz
+
+To Run pipeline using Docker-image
+- Docker
+- Docker-compose
 
 ## Run using IntelliJ/Scala IDE OR CMD
 - Check/Download ZIP file attached OR Clone the project from GitHub https://github.com/anant100/kafka-streams-docker
